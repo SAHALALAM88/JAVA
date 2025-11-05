@@ -27,19 +27,32 @@ public class Grades {
             for (int i = 0; i < n; i++) {
                 System.out.print("The Grade Of Subject " + (i + 1) + " is : ");
 
-                if (marks[i] >= 90) {
+                if (marks[i] >= 90) 
+                {
                     System.out.println("Grade A+");
-                } else if (marks[i] >= 80) {
+                } 
+                else if (marks[i] >= 80) 
+                {
                     System.out.println("Grade A");
-                } else if (marks[i] >= 70) {
+                } 
+                else if (marks[i] >= 70) 
+                {
                     System.out.println("Grade B+");
-                } else if (marks[i] >= 60) {
+                } 
+                else if (marks[i] >= 60) 
+                {
                     System.out.println("Grade B");
-                } else if (marks[i] >= 50) {
+                } 
+                else if (marks[i] >= 50) 
+                {
                     System.out.println("Grade C");
-                } else if (marks[i] >= 40) {
+                } 
+                else if (marks[i] >= 40) 
+                {
                     System.out.println("Pass");
-                } else {
+                } 
+                else 
+                {
                     System.out.println("You Are Failed!");
                 }
 
@@ -52,3 +65,4 @@ public class Grades {
         sc.close();
     }
 }
+
